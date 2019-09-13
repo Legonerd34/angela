@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: white;
+  background-size: cover;
+  background-position: center;
+  font-family: calibri;
+}
+.Contact-Me{
+  margin-top: 100px;
+  color: white;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.Contact-Me h2{
+  font-size: 32px;
+  line-hight: 10px;
+}
+.Contact-Me h3{
+  font-size: 16px;
+}
+form{
+  margin-top: 50px;
+  transition:all 4s ease-in-out;
+}
+.form-control{
+  width: 600px;
+  background: #00AFA4;
+  border: none;
+  outline: none;
+  boder-bottom: 1px solid gray;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  backgroundcolour: #00AFA4;
+  cursor: pointer;
+}
