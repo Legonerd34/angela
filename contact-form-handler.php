@@ -2,10 +2,11 @@
     $name=$_POST['name']
     $visitor_email=$_POST['email']
     $message=$_POST['message']
+    $where=$_POST['message']
 
 
-    $email_from= 'angelagreenwood34@yahoo.com'
-
+    $email_from= '$visitor_email'
+    
     $email_subject= "website enquiry"
 
     $email_body= "User Name: $name.\n".
@@ -21,5 +22,5 @@
 
     mail($to,$email_subject,$email_body,$headers);
 
-    header("Location: contact.html");
+    header("Location: thank.html");
 ?>

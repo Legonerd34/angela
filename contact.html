@@ -1,48 +1,36 @@
 <html>
 <head>
   <title>Angela Greenwood</title>
-  <style>
-    body {
-      background: #ffffff;
-      color: #00AFA4;
-      font-family: "Soin Sans Pro";
-      font-size: 18px;
-      padding: 100px;
-      <div class="bg-img website background.png" style="background-image:url(images/hero-home.png);"></div>
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Contact Details</h1>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    a:link {
-      color: white;
-      background-color: #00AFA4;
-      text-decoration: none;
-      font-size: 20px
-    }
-    </style>
-    <a href="index.html" target="_blank">Home</a>
-    <div class="contact-title">
-      <h2>Contact Me</h2>
-
-
-
-    </div>
-
     <div class="contact-form">
+      <h1>Contact Details</h1>
 
-      <form id="contact-form" method="post" action="contact-form-handler.php">
-        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="My Background.html">My Background</a>
+        <a href="publi.html">Publications</a>
+        <a href="links.html">Origins</a>
+        <a href="edu.html">Educational Psychotherapy thinking</a>
+        <a href="contact.html">Contact Details</a>
+      </div>
+      <div class="contact-title">
+        <h2>Contact Me</h2>
+        <p>Readers of "Understanding, nurturing and working effectively with vulnerable children in schools" may wish to contact me with questions or comments about the book.  I would also be interested to know how you heard about the book and how you heard about it. </p>
+        <br>Please use the contact form below for this:
+      </div>
 
-        <input name=" email" type="email" class="form-control" placeholder="Your email" required><br>
+      <div class="contact-form">
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+          <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+          <input name=" email" type="email" class="form-control" placeholder="Your email" required><br>
+          <textarea name="where" class="form-control" placeholder="How did you hear about my book?"  rows="2" required></textarea><br>
+          <textarea name="massage" class="form-control" placeholder="Message" rows="6" required></textarea><br>
+          <input type="submit" class="form-control submit" value="Send">
+      </form>
 
-        <textarea name="massage" class="form-control" placeholder="message" rows="4" required></textarea><br>
-
-        <input type="submit" class="form-control submit" value="SEND MESSAGE">
-    </form>
-
+      </div>
     </div>
-
 </body>
+</html>

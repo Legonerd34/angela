@@ -1,15 +1,40 @@
-body{
-  margin: 0;
-  padding: 0;
-  text-align: center;
+body {
+  margin: 150px;
+  padding: 150px;
   background: white;
-  background-size: cover;
-  background-position: center;
-  font-family: calibri;
+  background-image: url(images/wavylines.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: sans-serif;
+  color: black;
+  font-family: "calibri";
+  font-size: 18px;
+  padding: 100px 50px;
 }
+
+.contact-form {
+  text-align: center;
+}
+
+.h1 {
+  font-family: sans-serif;
+}
+
+.navigation a:link {
+  color: black;
+  background-color: #ceefd6;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
+}
+
 .Contact-Me{
   margin-top: 100px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   transition: all 4s ease-in-out;
 }
@@ -26,19 +51,24 @@ form{
 }
 .form-control{
   width: 600px;
-  background: #00AFA4;
+  background: #ceefd6;
   border: none;
   outline: none;
   boder-bottom: 1px solid gray;
-  color: white;
+  color: black;
   font-size: 18px;
   margin-bottom: 16px;
+}
+.navigation a:auto;{
+  font-size: 32px;
+  font-color: #dba34e;
+  font-style: oblique;
 }
 input{
   height: 45px;
 }
 form .submit{
-  background: #ff5722;
+  background: #5cbfce;
   border-color: transparent;
   color: #fff;
   font-size: 20px;
@@ -46,6 +76,7 @@ form .submit{
   letter-spacing: 2px;
   height: 50px;
   margin-top: 20px;
+  text-align: right;
 }
 form .submit:hover{
   backgroundcolour: #00AFA4;
