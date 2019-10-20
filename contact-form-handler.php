@@ -1,4 +1,4 @@
-<?php
+<--><?php
     $name=$_POST['name']
     $visitor_email=$_POST['email']
     $message=$_POST['message']
@@ -6,7 +6,7 @@
 
 
     $email_from= '$visitor_email'
-    
+
     $email_subject= "website enquiry"
 
     $email_body= "User Name: $name.\n".
@@ -24,3 +24,4 @@
 
     header("Location: thank.html");
 ?>
+<-->
