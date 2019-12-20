@@ -13,7 +13,7 @@ body {
 }
 
 .contact-form {
-  text-align: center;
+  text-align: left;
 }
 
 .h1 {
@@ -89,4 +89,9 @@ form .submit:hover{
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
+}
+
+.p1 {
+  text-align: right;
+  font-size: 10px;
 }
