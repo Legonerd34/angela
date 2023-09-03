@@ -62,7 +62,7 @@ body {
   touch-action: manipulation;
 }
 
-.download a:link {
+.download a:visited {
   color: rgb(75, 75, 75);
 }
 
