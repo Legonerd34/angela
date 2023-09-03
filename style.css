@@ -39,6 +39,10 @@ body {
   touch-action: manipulation;
 }
 
+.navigation a:visited {
+  color: green;
+}
+
 .download a:link {
   background-color: darkgrey;
   border-radius: 100px;
@@ -56,6 +60,10 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.download a:link {
+  color: rgb(75, 75, 75)
 }
 
 .navigation :hover {
