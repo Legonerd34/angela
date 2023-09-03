@@ -127,3 +127,7 @@ form .submit:hover{
   text-align: right;
   font-size: 10px;
 }
+
+.floatleft {
+  float: left;
+}
