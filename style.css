@@ -86,7 +86,7 @@ body {
 }
 
 .handouts a:visited {
-  color: orange;
+  color: rgb(75, 75, 75);
 }
 
 .handouts :hover {
