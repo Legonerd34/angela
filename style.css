@@ -32,7 +32,7 @@ body {
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
-  border: 0;
+  border: 1;
   font-size: 16px;
   user-select: none;
   -webkit-user-select: none;
@@ -40,7 +40,9 @@ body {
 
   min-width: 100px;
   min-height: 30px;
-  display: inline;
+  
+
+  margin-block-end: 10px;
 }
 
 .navigation a:visited {
@@ -59,7 +61,7 @@ body {
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
-  border: 0;
+  border: 1;
   font-size: 16px;
   user-select: none;
   -webkit-user-select: none;
@@ -67,7 +69,9 @@ body {
 
   min-width: 100px;
   min-height: 30px;
-  display: inline;
+  
+  margin-block-end: 10px;
+ 
 }
 
 .download a:visited {
@@ -86,7 +90,7 @@ body {
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
-  border: 0;
+  border: 1;
   font-size: 16px;
   user-select: none;
   -webkit-user-select: none;
@@ -94,7 +98,10 @@ body {
 
   min-width: 100px;
   min-height: 30px;
-  display: inline;
+ 
+  margin-block-end: 10px;
+
+  
 }
 
 .handouts a:visited {
@@ -192,14 +199,14 @@ form .submit:hover{
   text-align: center;
 }
 
-@media only screen and (max-width:480px) { 
-  .navigation {width: 100%; font-size: 4.25em; }
+@media only screen and (max-width:10000px) { 
+  .navigation {width: 100%;}
 }
 
-@media only screen and (max-width:480px) { 
-  .handouts {width: 100%; font-size: 4.25em; }
+@media only screen and (max-width:10000px) { 
+  .handouts {width: 100%;}
 }
 
-@media only screen and (max-width:480px) { 
-  .download {width: 100%; font-size: 4.25em; }
+@media only screen and (max-width:10000px) { 
+  .download {width: 100%;}
 }
