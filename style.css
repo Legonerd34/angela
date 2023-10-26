@@ -37,6 +37,10 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
+  min-width: 100px;
+  min-height: 30px;
+  display: inline;
 }
 
 .navigation a:visited {
@@ -60,6 +64,10 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
+  min-width: 100px;
+  min-height: 30px;
+  display: inline;
 }
 
 .download a:visited {
@@ -83,6 +91,10 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
+  min-width: 100px;
+  min-height: 30px;
+  display: inline;
 }
 
 .handouts a:visited {
@@ -178,4 +190,16 @@ form .submit:hover{
 
 .aligncenter {
   text-align: center;
+}
+
+@media only screen and (max-width:480px) { 
+  .navigation {width: 100%; font-size: 4.25em; }
+}
+
+@media only screen and (max-width:480px) { 
+  .handouts {width: 100%; font-size: 4.25em; }
+}
+
+@media only screen and (max-width:480px) { 
+  .download {width: 100%; font-size: 4.25em; }
 }
