@@ -7,7 +7,7 @@ body {
   background-size: contain;
   font-family: sans-serif;
   color: black;
-  font-family: "calibri";
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
   font-size: 18px;
   padding: 100px 50px;
 }
@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   transition: all 250ms;
   border: 1;
-  font-size: 16px;
+  font-size: 21px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -62,7 +62,7 @@ body {
   text-decoration: none;
   transition: all 250ms;
   border: 1;
-  font-size: 16px;
+  font-size: 21px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -91,7 +91,7 @@ body {
   text-decoration: none;
   transition: all 250ms;
   border: 1;
-  font-size: 16px;
+  font-size: 21px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
