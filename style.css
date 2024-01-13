@@ -193,6 +193,7 @@ form .submit:hover{
 
 .floatmiddle {
   float: middle;
+  margin: 30px;
 }
 
 .aligncenter {
