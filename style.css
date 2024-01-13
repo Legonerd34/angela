@@ -90,8 +90,8 @@ body {
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
-  border: 1;
-  font-size: 11px;
+  border: 0.5;
+  font-size: 18px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
