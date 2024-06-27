@@ -4,6 +4,29 @@
   <title>Angela Greenwood</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/x-icon" href="/images/wavylines.jpg">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            
+            emailjs.init({
+              publicKey: "v9xfNv0GZWd0eMVK2",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
     <div class="contact-form">
@@ -27,16 +50,17 @@
         <br>Email <a href="mailto:angelagreenwood34@yahoo.com">angelagreenwood34@yahoo.com</a>
       </div>
 
-      <!--
+      
       <div class="contact-form">
-        <form id="contact-form" method="post" action="contact-form-handler.php">
-          <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-          <input name=" email" type="email" class="form-control" placeholder="Your email" required><br>
-          <textarea name="where" class="form-control" placeholder="How did you hear about my book?"  rows="2" required></textarea><br>
-          <textarea name="massage" class="form-control" placeholder="Message" rows="6" required></textarea><br>
+        <form id="contact-form">
+          <input type="hidden" name="contact_number" value="697483">
+          <input name="user_name" type="text" class="form-control" placeholder="Your Name" required><br>
+          <input name="user_email" type="email" class="form-control" placeholder="Your email" required><br>
+          
+          <textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea><br>
           <input type="submit" class="form-control submit" value="Send">
       </form>
-      -->
+    
       <p style="color:white">.</p>
       <p style="color:white">.</p>
       <p style="color:white">.</p>
