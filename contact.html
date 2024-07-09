@@ -40,6 +40,8 @@
           <textarea name="message" class="form-control" placeholder="Message" rows="6" required id="message"></textarea><br>
           <input type="submit" class="form-control submit" value="Send">
       </form>
+
+      <h2 style="display: none;" id="submit-message">Message submitted!</h2>
     
       <p style="color:white">.</p>
       <p style="color:white">.</p>
@@ -54,6 +56,8 @@
       const name = document.getElementById("name").value;
       const email = document.getElementById("email").value;
       const message = document.getElementById("message").value;
+
+      const sumbitted = document.getElementById("submit-message");
 
       const object = {
         name : name,
@@ -70,6 +74,8 @@
       })
 
       console.log('status:', response.status)
+      submitted.style.disply = "block";
+
 
 
 
