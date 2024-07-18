@@ -211,3 +211,10 @@ form .submit:hover{
 .right_Downloads {
   margin-right : 10px;
 }
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
