@@ -1,0 +1,30 @@
+export default function MyBackground() {
+  return (
+    <div>
+      <h1>My Background</h1>
+      <h2>Angela Greenwood Educational Psychotherapist</h2>
+      <img src="/images/IMG_3517.JPG" alt="Angela portrait" style={{ float: 'right', margin: '10px', width: '300px' }} />
+      <p>I am an Educational Psychotherapist registered with the United Kingdom Council for Psychotherapy (UKCP). I have many years experience working with children, families, schools and school staff, including clinical work with children whose learning and behaviour have been adversely affected by social and environmental factors. I have also done the level one Dan Hughes (‘Attachment Focused Family Therapy’) training, and the Theraplay level one training.
+    Educational Psychotherapy (sometimes known as Educational Therapy) is a clinical child psychotherapy training with a particular interest in children whose learning and behaviour is affected by emotional factors.</p>
+    <p>Experience: &mdash;</p>
+    <ul>
+      <li>Primary teaching and Pre-school development work in England and Zambia</li>
+      <li>School Special Educational Needs Co-ordinator in a ‘deprived’ primary school for 16 years</li>
+        <img src="/images/iStock-587936658.jpeg" alt="Stock" style={{ float: 'right', margin: '10px', width: '300px' }} />
+        <li>Educational Psychotherapist with the SWANS project, where we offered psychotherapy to children affected by domestic violence, in parallel with their mothers receiving their own counselling and support. This sometimes involved multi-disciplinary and consultative work</li>
+      <li>Individual Educational Psychotherapy with many children over 18 years</li>
+      <li>Multi faceted work with adoptive families and the childrens’ schools</li>
+      <li>In-service training and other training courses with school staff and other professionals in Southend, at the Sycamore Child Counselling Training in Chelmsford, at Caspari Foundation in London and at Brighton University</li>
+      <li>Consultation and clinical supervision with teachers and other professionals</li>
+      <li>Consultation, clinical staff supervision, individual psychotherapy, detailed assessments and INSET at a pupil referral unit for 4 years</li>
+      <li>INSET, planning and work discussion group leading at a local teachers support group, counselling support group and the local Nurture Group Network</li>
+      <li>Joint therapeutic work with an adult psychotherapist, with families with complex difficulties</li>
+      <li>Writing and co-facilitating ‘Safe to Learn’ courses for teachers</li>
+      <li>Attachment lectures at Caspari Foundation and at various University departments</li>
+
+    </ul>
+    </div>
+  )
+}
+
+

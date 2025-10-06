@@ -1,0 +1,90 @@
+<html>
+<head>
+  <meta name="viewport" content="width=1100, initial-scale=0.25">
+  <title>Angela Greenwood</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/wavylines.jpg">
+
+
+    
+</head>
+<body>
+    <div class="contact-form">
+      <h1>Contact Details</h1>
+
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="My Background.html">My Background</a>
+        <a href="publi.html">Publications</a>
+        <a href="links.html">Origins</a>
+        <a href="edu.html">Educational Psychotherapy thinking</a>
+        <a href="contact.html">Contact Details</a>
+        <a href="webinars.html">Webinars</a>
+        <a href="Posters.html">2023 Posters</a>
+        <a href="stlc.html">Safe to Learn Course</a>
+        <a href="other resources.html">Story books</a>
+        <a href="itai.html">Interlinked themes and issues</a>
+        <a href="sb.html">Suggestion boxes</a>
+      </div>
+      <div class="contact-title">
+
+        <p>Readers of "Understanding, nurturing and working effectively with vulnerable children in schools" may wish to contact me with questions or comments about the book.  I would also be interested to know how you heard about the book. </p>
+        <br>
+      </div>
+
+      
+      <div class="contact-form">
+        <form id="contact-form">
+          <input type="hidden" name="contact_number" value="697483">
+          <input name="user_name" type="text" class="form-control" placeholder="Your Name" required id="name"><br>
+          <input name="user_email" type="email" class="form-control" placeholder="Your email" required id="email"><br>
+          
+          <textarea name="message" class="form-control" placeholder="Message" rows="6" required id="message"></textarea><br>
+          <input type="submit" class="form-control submit" value="Send">
+      </form>
+
+      <h2 style="display: none;" id="submit-message">Message submitted!</h2>
+    
+      <p style="color:white">.</p>
+      <p style="color:white">.</p>
+      <p style="color:white">.</p>
+<p1>Website created by Max Bushell </p1><a href="mailto:abbiegreenwood3@gmail.com">(abbiegreenwood3@gmail.com)</a>
+<p>Contact form powered by NodeScript</p>
+
+<script type="text/javascript">
+    document.getElementById("contact-form").addEventListener("submit", async function(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      const submitted = document.getElementById("submit-message");
+
+      const object = {
+        name : name,
+        email : email,
+        message : message
+      }
+
+      const response = await fetch("https://dh0wkzi4.run.nodescript.dev/angela/send-email", {
+        method : "POST",
+        headers : {
+          'Content-Type': 'application/json; charset=utf-8'
+        },
+        body : JSON.stringify(object)
+      })
+
+      console.log('status:', response.status)
+      submitted.style.display = "block";
+
+
+
+
+    })
+
+    </script>
+      </div>
+    </div>
+</body>
+</html>
